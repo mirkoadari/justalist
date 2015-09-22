@@ -2,6 +2,9 @@ group 'com.github.mirkoadari'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = "com.github.mirkoadari.Application"
 
 sourceCompatibility = 1.8
 
